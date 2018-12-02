@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <title> </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" maximun-scale="1.0" minimun-scale="1.0">
+    <meta name="description" content="">
+    <link rel="icon" href="img/favicon.png">
+    <link rel="stylesheet" href="https://file.myfontastic.com/3wN7fLuFC6rosvKjEP7dGG/icons.css">
+    <link href="https://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css" rel="stylesheet">
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script type="text/javascript" src="https://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="css/styles.css?=222">
+    <script src="js/index.js"> </script>
+    <script src="js/cerrar.js"></script>
+  </head>
+  <body>
+    <header class="main-header">
+      <div class="main-nav l-container">
+        <ul class="main-menu">
+          <li class="main-menu__item">Acerca de</li>
+          <li class="main-menu__item">Trabajos</li>
+          <li class="main-menu__item">Contacto</li>
+        </ul>
+      </div>
+      <div class="container-copy">
+        <div class="banner-copy">
+          <h1 class="banner-copy__title">Carlos Anibal </h1>
+          <h2 class="banner-copy__content">Desarrollador Web</h2>
+        </div>
+      </div>
+    </header>
+    <main>
+      <div class="container-img"><img class="container-img__photo" src="img/about.jpg" alt="Falcon"></div>
+      <section class="about l-container">
+        <h1 class="about__title">Acerca de</h1>
+        <p class="about__content"> My nombre es <span class="bold">Carlos Aníbal Gómez</span> y soy analista de sistemas; enamorado de la programación y amante del buen fútbol </p>
+        <p class="about__content">Dedico cada dí a invertir en mi formación; la programación y la superación personal. Con el fin de poder compartir mi conocimiento a quienes desean aprender.</p>
+        <cite>
+          <q>Invertir en conocimientos produce siempre los mejores beneficios.</q>
+          <cite class="autor"> - Benjamin Franklin </cite>
+        </cite>
+      </section>
+      <section class="jobs">
+        <div class="l-container">
+          <h2 class="jobs-subtitle">Trabajos</h2>
+          <div class="jobs-container">
+            <article class="jobs__item">
+              <div class="container">
+                <div class="row">
+                  <div class="col-12 col-md-4 col-sm-6"><a title="Image 1sdfsfd" href="#"></a><img class="thumbnail img-responsive" id="image-1" src="img/trabajos/restaurante.png"></div>
+                  <div class="col-12 col-md-4 col-sm-6"><a title="Image 2" href="#"></a><img class="thumbnail img-responsive" id="image-2" src="img/trabajos/startup.png"></div>
+                  <div class="col-12 col-md-4 col-sm-6"><a title="Image 3" href="#"></a><img class="thumbnail img-responsive" id="image-3" src="http://dummyimage.com/600x350/449955/FFF&amp;text=0xD00xB70xD00xB50xD00xBB0xD00xB50xD00xBD0xD10x8B0xD00xB9"></div>
+                </div>
+                <hr>
+              </div>
+              <div class="hidden" id="img-repo">
+                <div class="item" id="image-1"><a href="https://carlos-anibal.github.io/Restaurante/" target="_blank"><img class="thumbnail img-responsive" title="Página de restaurante" src="img/trabajos/restaurante.png"></a></div>
+                <!-- #image-2-->
+                <div class="item" id="image-2"><a href="https://carlos-anibal.github.io/startup/" target="_blank"><img class="thumbnail img-responsive" title="Página de startup" src="img/trabajos/startup.png"></a></div>
+                <!-- #image-3-->
+                <div class="item" id="image-3"><img class="thumbnail img-responsive" title="Image 32" src="http://dummyimage.com/600x600/449955/FFF"></div>
+              </div>
+            </article>
+            <div class="modal" id="modal-gallery" role="dialog">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <button class="close" type="button" data-dismiss="modal">×</button>
+                    <h3 class="modal-title"></h3>
+                  </div>
+                  <div class="modal-body">
+                    <div class="carousel" id="modal-carousel">
+                      <div class="carousel-inner"></div><a class="carousel-control left" href="#modal-carousel" data-slide="prev"><i class="glyphicon glyphicon-chevron-left"></i></a><a class="carousel-control right" href="#modal-carousel" data-slide="next"><i class="glyphicon glyphicon-chevron-right"></i></a>
+                    </div>
+                  </div>
+                  <div class="modal-footer">
+                    <button class="btn btn-default" data-dismiss="modal">Close</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="main-footer">
+      <section class="contact l-container">
+        <h2 class="contact-subtitle">Contacto</h2>
+        <form class="contact-form">
+          <input type="text" placeholder=" Nombre" required>
+          <input type="mail" placeholder=" Correo" required>
+          <textarea name="textarea" placeholder="Mensaje:" required></textarea>
+          <input class="button" type="submit" value="Enviar">
+        </form>
+      </section>
+      <section class="socials">
+        <div class="l-container"><a class="social icon-twitter" href=""></a><a class="social icon-facebook" href=""></a><a class="social icon-youtube" href=""></a><a class="social icon-github" href=""></a><a class="social icon-instagram" href=""></a></div>
+      </section>
+    </footer>
+  </body>
+</html>
